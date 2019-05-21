@@ -65,7 +65,7 @@ namespace Punto_2
                         Console.ReadKey();
                         break;
                 }
-                Console.Write("Desea hacer otro calculo? s/n");
+                Console.Write("Desea hacer otro calculo? s/n: ");
                 again = Convert.ToChar(Console.ReadLine());
             } while (again =='s' || again =='S');
         }
